@@ -102,9 +102,9 @@ for(var i = 0; i < odd.length; i++){
 
 
 // TRAVERSING THE DOM //
-
+/*
 var itemList = document.querySelector('#items')
-/*  
+
 // parentNode
 console.log(itemList.parentNode)
 itemList.parentNode.style.backgroundColor = '#f4f4f4'
@@ -135,9 +135,48 @@ console.log(itemList.lastChild)
 // lastElementChild
 console.log(itemList.lastElementChild)
 itemList.lastElementChild.textContent = 'Hey Guys!'
-*/
+
 
 // nextSibling
 console.log(itemList.nextSibling)
 // nextElementSibling
 console.log(itemList.nextElementSibling)
+
+
+// previousSibling
+console.log(itemList.previousSibling)
+// previousElementSibling
+console.log(itemList.previousElementSibling)
+itemList.previousElementSibling.style.color = 'green'
+
+
+// createElement
+
+// Create a div
+var newDiv = document.createElement('div')
+
+// add class
+newDiv.className ='Hello'
+
+// add id
+newDiv.id ='Hello 1'
+
+// add attribute
+newDiv.setAttribute('title', 'Hello Div')
+
+// Create text node
+var newDivText = document.createTextNode('Hello World')
+
+// add text to div
+newDiv.appendChild(newDivText)
+
+var container = document.querySelector('header .container')
+var h1 = document.querySelector('header h1')
+
+console.log(newDiv)
+
+newDiv.style.fontSize = '30px'
+
+container.insertBefore(newDiv, h1)
+*/
+
