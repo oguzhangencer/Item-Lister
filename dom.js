@@ -32,6 +32,7 @@ headerTitle.style.borderBottom = 'solid 4px #098'
 */
 
 // GET ELEMENT CLASS NAME //
+/*
 var items = document.getElementsByClassName('list-group-item')
 console.log(items)
 console.log(items[0])
@@ -40,18 +41,28 @@ items[0].style.fontWeight = 'bold'
 items[1].style.backgroundColor = 'lightgreen'
 items[0].style.backgroundColor = 'lightyellow'
 
-//Gives error
-//items.style.backgroundColor = '#f4f4f4'
+Gives error
+items.style.backgroundColor = '#f4f4f4'
 
 for(var i = 0; i < items.length; i++){
     items[i].style.backgroundColor = '#f4f4f4'
 }
+*/
 
+// GET ELEMENT BY TAG NAME //
+/*
+var li = document.getElementsByTagName('li')
+console.log(li)
+console.log(li[0])
+li[0].textContent = 'Hola 2'
+li[0].style.fontWeight = 'bold'
+li[1].style.backgroundColor = 'green'
+li[0].style.backgroundColor = 'yellow'
 
-
-
-
-
+for(var i = 0; i < li.length; i++){
+    li[i].style.backgroundColor = '#f4f4f4'
+}
+*/
 
 
 
