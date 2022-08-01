@@ -137,6 +137,7 @@ console.log(itemList.lastElementChild)
 itemList.lastElementChild.textContent = 'Hey Guys!'
 */
 
-
-
-
+// nextSibling
+console.log(itemList.nextSibling)
+// nextElementSibling
+console.log(itemList.nextElementSibling)
