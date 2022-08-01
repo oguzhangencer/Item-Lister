@@ -46,3 +46,27 @@ items[0].style.backgroundColor = 'lightyellow'
 for(var i = 0; i < items.length; i++){
     items[i].style.backgroundColor = '#f4f4f4'
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
